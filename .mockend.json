@@ -12,7 +12,7 @@
       "Canada",
       "Mexico"
     ] },
-    "postal-code": { "int": { "min": 5, "max": 5 } },
+    "postal-code": { "int": { "min": 10000, "max": 99999 } },
     "hire-date": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
