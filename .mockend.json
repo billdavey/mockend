@@ -19,14 +19,14 @@
         "max": "2022-03-31T23:59:59Z"
       }
     },
-    "pushNotifications": { "boolean": {} },
-    "userProfile": {
-      "belongsTo": "User"
-    }
+    "pushNotifications": { "boolean": {} }
   },
   "User": {
     "username": {  "string": {} },
-    "password": { "regexp": "[0-9a-zA-Z]{6,10}" }
+    "password": { "regexp": "[0-9a-zA-Z]{6,10}" },
+    "userProfile": {
+      "belongsTo": "Profile"
+    }
   }
 }
 
