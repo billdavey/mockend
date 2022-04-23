@@ -1,6 +1,7 @@
 # mockend
 A repo to test mockend apis
-- [test](https://docs.mockend.com/)
+- [Getting Started](https://docs.mockend.com/)
+- [Configuration](https://docs.mockend.com/config)
 
 ## REST
 - https://mockend.com/billdavey/mockend/profiles
