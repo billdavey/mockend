@@ -1,6 +1,6 @@
 {
   "Profile": {
-    "username": { "loremWord": {} },
+    "username": {  "string": {} },
     "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
     "lastName": { "regexp": "[A-Z][a-z]{8,15}" },
     "bio": { "loremParagraphs": { "minLength": 200, "maxLength": 500 }},
@@ -22,7 +22,7 @@
     "pushNotifications": { "boolean": {} }
   },
   "User": {
-    "username": { "loremWord": {} },
+    "username": {  "string": {} },
     "password": { "regexp": "[0-9a-zA-Z]{6,10}" }
   }
 }
