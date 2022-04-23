@@ -1,6 +1,6 @@
 {
   "Profile": {
-    "title": { "loremWords": { "minLength": 5, "maxLength": 30 } },
+    "screen-name": { "loremWord": {} },
     "bio": { "loremParagraphs": { "minLength": 200, "maxLength": 500 }},
     "avatar": { "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}" },
     "photo": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
