@@ -22,7 +22,7 @@
     "pushnotifications": { "boolean": {} }
   },
   "User": {
-    "username": { "loremWord": {10,10} },
+    "username": { "loremWord": {} },
     "password": { "regexp": "[0-9a-zA-Z@#$%]{6,10}" }
   }
 }
