@@ -4,14 +4,6 @@
     "comments": {
       "hasMany": "Comment"
     },
-    {
-  "avatar": {
-    "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}"
-  },
-  "photo": {
-    "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
-  }
-}
   },
   "Comment": {
     "body": { "string": {} },
