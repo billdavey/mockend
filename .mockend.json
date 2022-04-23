@@ -1,8 +1,8 @@
 {
   "Profile": {
     "username": { "loremWord": {} },
-    "first-name": { "regexp": "[A-Z][a-z]{5,10}" },
-    "last-name": { "regexp": "[A-Z][a-z]{8,15}" },
+    "firstName": { "regexp": "[A-Z][a-z]{5,10}" },
+    "lastName": { "regexp": "[A-Z][a-z]{8,15}" },
     "bio": { "loremParagraphs": { "minLength": 200, "maxLength": 500 }},
     "avatar": { "regexp": "https://i\\.pravatar\\.cc/150?u=[0-9]{5}" },
     "photo": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
@@ -12,14 +12,14 @@
       "Canada",
       "Mexico"
     ] },
-    "postal-code": { "int": { "min": 10000, "max": 99999 } },
-    "hire-date": {
+    "postalCode": { "int": { "min": 10000, "max": 99999 } },
+    "hireDate": {
       "dateTime": {
         "min": "2010-01-01T00:00:00Z",
         "max": "2022-03-31T23:59:59Z"
       }
     },
-    "push-notifications": { "boolean": {} }
+    "pushNotifications": { "boolean": {} }
   },
   "User": {
     "username": { "loremWord": {} },
