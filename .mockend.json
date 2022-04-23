@@ -23,7 +23,7 @@
   },
   "User": {
     "username": { "string": {} },
-    "password": { "loremWord": {} }
+    "password": { "regexp": "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$ %^&*-]).{8,}$" }
   }
 }
 
