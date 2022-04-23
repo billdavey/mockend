@@ -22,7 +22,7 @@
     "pushnotifications": { "boolean": {} }
   },
   "User": {
-    "username": { "loremWord": {} },
+    "username": { "string": {} },
     "password": { "loremWord": {} }
   }
 }
