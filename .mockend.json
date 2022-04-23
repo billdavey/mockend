@@ -23,7 +23,7 @@
   },
   "User": {
     "username": { "string": {} },
-    "password": { "regexp": "^.*(?=.{6,})(?=.*[a-zA-Z])(?=.*\\d)(?=.*[!&$%&? \"]).*$" }
+    "password": { "regexp": "[0-9a-zA-Z@#$%]{6,10}" }
   }
 }
 
