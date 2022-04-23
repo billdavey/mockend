@@ -1,16 +1,6 @@
 {
-  "Post": {
-    "title": {
-    "loremWords": { "minLength": 5, "maxLength": 20 }
-  }
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  "Profile": {
+    "likes": { "int": { "min": 0, "max": 1000000 } },
+    "isPublished": { "boolean": {} },
   }
 }
