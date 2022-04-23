@@ -3,6 +3,7 @@ A repo to test mockend apis
 - [Mockend](https://mockend.com/)
 - [Getting Started | Mockend](https://docs.mockend.com/)
 - [Configuration | Mockend](https://docs.mockend.com/config)
+- [Demo | Mockend](https://github.com/mockend/demo)
 
 ## REST
 - https://mockend.com/billdavey/mockend/profiles
