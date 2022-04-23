@@ -1,5 +1,6 @@
 {
   "Profile": {
-    "title": { "loremWords": { "minLength": 5, "maxLength": 30 } }
+    "title": { "loremWords": { "minLength": 5, "maxLength": 30 } },
+    "bio": {"loremSentences": { "minLength": 100, "maxLength": 200 }}
   }
 }
