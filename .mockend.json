@@ -20,6 +20,10 @@
       }
     },
     "pushnotifications": { "boolean": {} }
+  },
+  "User": {
+    "username": { "loremWord": {} },
+    "password": { "loremWord": {} }
   }
 }
 
