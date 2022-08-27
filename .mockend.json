@@ -27,6 +27,15 @@
     "userProfile": {
       "belongsTo": "Profile"
     }
-  }
+  },
+  "Employee": {
+    "name": {  "string": {} },
+    "title": {  "string": {} },
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+    "role": {"string": [
+      "Memeber",
+      "Admin",
+      "Developer"
+      ]}
 }
 
