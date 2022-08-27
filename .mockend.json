@@ -28,7 +28,7 @@
       "belongsTo": "Profile"
     }
   },
-  "Employees": {
+  "Employee": {
     "name": {   "regexp": "[A-Z][a-z]{5,10}"  },
     "title": {  "string": {} },
     "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
